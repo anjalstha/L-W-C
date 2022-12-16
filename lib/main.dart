@@ -82,7 +82,12 @@ class _HomePageState extends State<HomePage> {
                       children: const [
                         ListTile(
                           title: Text('Najeek'),
-                          trailing: Icon(Icons.arrow_forward_ios),
+                          trailing: Hero(
+                            tag: 'tag-1',
+                            child: Icon(
+                              Icons.arrow_forward_ios,
+                            ),
+                          ),
                         ),
                       ],
                     ),

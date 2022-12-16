@@ -19,10 +19,12 @@ class DescriptionPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Text('hey, hello'),
-            Image.asset(
-              'images/najeek.png',
-              width: 400,
+            Hero(
+              tag: 'tag-1',
+              child: Image.asset(
+                'images/najeek.png',
+                width: 400,
+              ),
             ),
           ],
         ),
